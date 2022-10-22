@@ -156,7 +156,7 @@ function parseMongoFilter(querystring) {
       [MongoOperator.GREATER_OR_EQUAL]: SqlOperator.GREATER_OR_EQUAL,
       [MongoOperator.LESS_THAN]: SqlOperator.LESS_THAN,
       [MongoOperator.LESS_OR_EQUAL]: SqlOperator.LESS_OR_EQUAL,
-      [MongoOperator.ILIKE]: SqlOperator.LIKE,
+      [MongoOperator.ILIKE]: SqlOperator.ILIKE,
       [MongoOperator.IN]: SqlOperator.IN,
       [MongoOperator.NOT_IN]: SqlOperator.NOT_IN,
     }[operator];
