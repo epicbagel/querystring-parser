@@ -29,7 +29,7 @@ const SequelizeSymbols = Object.freeze({
   [Operator.NOT]: Op.not,
   [Operator.NOT_IN]: Op.notIn,
   [Operator.IN]: Op.in,
-  [Operator.LIKE]: Op.like,
+  [Operator.LIKE]: Op.iLike,
   [Operator.ILIKE]: Op.iLike,
   [Operator.EQUALS]: Op.eq,
   [Operator.NOT_EQUALS]: Op.ne,
